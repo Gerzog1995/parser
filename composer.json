@@ -1,0 +1,19 @@
+{
+    "name": "parser",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Likhachov Dmitry",
+            "email": "backend.dev.dl@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ParserCore\\": "core/",
+            "ParserCore\\interfaces\\": "core/interfaces/"
+        }
+    }
+}
